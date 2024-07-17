@@ -118,7 +118,7 @@
       <div class='title cap theme'>您可能感兴趣的文章</div>
     </section>
     <section class='body'>
-    <div class="related-posts"><a class="item" href="\articles\最好用的下载软件IDM破解版\" title="最好用的下载软件IDM破解版"><span class="title">最好用的下载软件IDM破解版</span></a></div></section></div>
+    <div class="related-posts"><a class="item" href="\articles\BT磁力下载网站聚合\" title="BT磁力下载网站聚合"><span class="title">BT磁力下载网站聚合</span></a></div></section></div>
 
 
 
@@ -454,7 +454,7 @@
 
 <script defer>
   window.addEventListener('DOMContentLoaded', (event) => {
-    ctx.services = Object.assign({}, JSON.parse(`{"mdrender":{"js":"/js/services/mdrender.js"},"siteinfo":{"js":"/js/services/siteinfo.js","api":null},"ghinfo":{"js":"/js/services/ghinfo.js"},"sites":{"js":"/js/services/sites.js"},"friends":{"js":"/js/services/friends.js"},"timeline":{"js":"/js/services/timeline.js"},"fcircle":{"js":"/js/services/fcircle.js"},"weibo":{"js":"/js/services/weibo.js"},"memos":{"js":"/js/services/memos.js"}}`));
+    ctx.services = Object.assign({}, JSON.parse(`{"mdrender":{"js":"/js/services/mdrender.js"},"siteinfo":{"js":"/js/services/siteinfo.js","api":"https://site-info.vlts.cc/api/v1?url=${href}"},"ghinfo":{"js":"/js/services/ghinfo.js"},"sites":{"js":"/js/services/sites.js"},"friends":{"js":"/js/services/friends.js"},"timeline":{"js":"/js/services/timeline.js"},"fcircle":{"js":"/js/services/fcircle.js"},"weibo":{"js":"/js/services/weibo.js"},"memos":{"js":"/js/services/memos.js"}}`));
     for (let id of Object.keys(ctx.services)) {
       const js = ctx.services[id].js;
       if (id == 'siteinfo') {
